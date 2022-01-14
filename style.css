@@ -1,0 +1,121 @@
+body {
+  background: #aad8ce;
+  font-family: "microsoft yi baiti";
+}
+
+.container {
+  background: #f5f4f2;
+  color: #231f20;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #8fa7a2;
+  padding: 50px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.titulo h3 a {
+  color: #231f20;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.titulo h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: -20px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 10px;
+  background: none;
+  border-radius: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #aad8ce;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #a8bdb8;
+}
+
+.projetos-titulo {
+  color: #231f20;
+  list-styke: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.projetos-item a {
+  color: #231f20;
+  text-decoration: none;
+}
+
+.dark {
+  background: #789a93;
+}
+
+.dark .container {
+  background: #231f20;
+  color: #f5f4f2;
+  box-shadow: 6px 6px 6px #4c635e;
+}
+
+.dark .perfil-foto {
+  box-shadow: 4px 4px 4px #0b0a0a;
+}
+
+.dark .titulo h3 a {
+  color: #f5f4f2;
+}
+
+.dark .projetos {
+  background: #789a93;
+  box-shadow: 5px 5px 5px #0b0a0a;
+}
+
+.dark .tema button {
+  background: #171415;
+  color: #f5f4f2;
+  border: 2px solid #f5f4f2;
+}
